@@ -18,7 +18,7 @@ export function CustomButton({
     <button
       onClick={onClick}
       className={cn(
-        "flex items-center justify-center p-4 w-full h-11 text-center gap-1",
+        "flex items-center justify-center p-4 w-full h-11 text-center gap-1 cursor-pointer",
         className
       )}
     >
